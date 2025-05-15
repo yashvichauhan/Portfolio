@@ -24,10 +24,10 @@ const Navbar = () => {
             onClick={() => setShowMenu(false)}
           >
             <Image
-              src={"/assets/vs-logo.png"}
+              src={"/assets/logoYC.png"}
               alt="Yashvi Chauhan"
-              width={100}
-              height={100}
+              width={75}
+              height={75}
             />
           </Link>
         </div>
@@ -56,10 +56,10 @@ const Navbar = () => {
                   onClick={() => setShowMenu(false)}
                 >
                   <Image
-                    src={"/assets/vs-mobile-logo.png"}
+                    src={"/assets/yc-logo-mobile.png"}
                     alt="Yashvi Chauhan"
-                    width={150}
-                    height={150}
+                    width={100}
+                    height={100}
                   />
                 </Link>
                 <NavList
